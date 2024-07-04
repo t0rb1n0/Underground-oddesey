@@ -16,6 +16,15 @@ var anim_state = state.IDLE
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
+func update_state ():
+	if anim_state == state.HURT:
+		return
+	if is_on_floor():
+		if velocity == Vector2.ZERO:
+			anim_state = state.IDLE
+		elif velocity.x != 0:
+			anim_state = state.RUNNING
+
 
 func _physics_process(delta):
 	# Add the gravity.

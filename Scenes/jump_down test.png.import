@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c31qyuupi62p0"
-path="res://.godot/imported/Character_set_sheet-removebg-preview.png-f924255323fba8d6b6a9a840173c350f.ctex"
+uid="uid://kpoxip72nj2c"
+path="res://.godot/imported/jump_down test.png-df7e1990b28a7ccace4671551a78c2d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Character_set_sheet-removebg-preview.png"
-dest_files=["res://.godot/imported/Character_set_sheet-removebg-preview.png-f924255323fba8d6b6a9a840173c350f.ctex"]
+source_file="res://Scenes/jump_down test.png"
+dest_files=["res://.godot/imported/jump_down test.png-df7e1990b28a7ccace4671551a78c2d3.ctex"]
 
 [params]
 
